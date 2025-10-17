@@ -8,16 +8,16 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", 23255238))
+API_HASH = getenv("API_HASH", "009e3d8c1bdc89d5387cdd8fd182ec15")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "8329333238:AAEAwyudQ6eaU5CS-ynJfuudejo8pO0AD4A")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kittu:Kittu@kittu.nvijrco.mongodb.net/?retryWrites=true&w=majority&appName=Kittu")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Tvk_musicbot")
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "Tvk_musicbot")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
@@ -27,7 +27,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1003135308769"))
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7943359877"))
 
-OWNER_USERNAME = getenv("OWNER_USERNAME","xeno_kakarot")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Kittu_the_meoww")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Gokukhan1/faketry",
+    "https://github.com/vagetatg/Kittu",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
