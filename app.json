@@ -24,22 +24,17 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "8329333238:AAEAwyudQ6eaU5CS-ynJfuudejo8pO0AD4A",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://I-LOVE-PDF-BOT:I-LOVE-PDF-BOT@cluster0.c51o3a9.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://Kittu:Kittu@kittu.nvijrco.mongodb.net/?retryWrites=true&w=majority&appName=Kittu",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "7078181502",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @BRANDEDSTRINGSESSION_BOT on Telegram.",
-        "value": "",
+        "value": "7943359877",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -54,12 +49,12 @@
       },
       "UPSTREAM_REPO": {
         "description": "dont fill",
-        "value": "https://github.com/Gokukhan1/faketry",
+        "value": "https://github.com/vagetatg/Kittu",
         "required": false
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "-1002009280180",
+        "value": "-1003135308769",
         "required": true
       }
     },
