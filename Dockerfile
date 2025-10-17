@@ -1,13 +1,13 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
+FROM python:3.10-bullseye
 
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends ffmpeg \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+# Node.js 19 is deprecated too, but you can still install it manually
+RUN curl -fsSL https://deb.nodesource.com/setup_19.x | bash - && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends nodejs ffmpeg && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 COPY . /app/
 WORKDIR /app/
-RUN python3 -m pip install --upgrade pip setuptools
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+RUN pip3 install --no-cache-dir -U -r requirements.txt
 
-CMD python3 -m Oneforall
+CMD bash start
