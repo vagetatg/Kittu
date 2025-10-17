@@ -12,20 +12,20 @@ API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "8329333238:AAEAwyudQ6eaU5CS-ynJfuudejo8pO0AD4A")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kittu:Kittu@kittu.nvijrco.mongodb.net/?retryWrites=true&w=majority&appName=Kittu")
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003135308769"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7078181502"))
+OWNER_ID = int(getenv("OWNER_ID", "7943359877"))
 
 OWNER_USERNAME = getenv("OWNER_USERNAME","xeno_kakarot")
 
@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PiratesBotRepo")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/EMEhfg6KrlAzODU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/privatelog_tvk")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/teakadai_update")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,7 +77,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQG5kuUAPi54o9nkUK4z8qWeCp87RE9XlHloQ-gdk1L7y5X9IObCyv9vC8ZA3cPfiD16eIKwhHNC000yc-Ytoj4hA-EdJdtpmAMPZ9OAOv7W3kVaoYXXqfGv-J4tftkN5bZVDsqNFQ7JO6iZ-2fvH0Ke7yKpBwtw1Lp5YHw5syzK6IF3jJG0TIQQMqEIMPHWEAOtuQPLwqbRR_6vD_V5BUnyNM-D_zT4bAgbzWGvKbIEo-ZxGFa64mFh8XbQPlHNXsUc5SdJyHdnsVCAt7B8TpND4MhX0fJW7WSh9EGv2Jz9O9_E8zoS0nfKuS75sMBbY3LqXOf5-uCgO6hxlRQce25plSlfUAAAAAHv8Np5AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -93,18 +93,18 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/t0t93h.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/lbl62s.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/ka4lzo.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/o82ph9.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ka4lzo.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/lbl62s.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/t0t93h.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/o82ph9.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/o82ph9.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/ka4lzo.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/lbl62s.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/t0t93h.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/sv1a44.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/7mhdku.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/4wn6s3.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/o4m8ep.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/khtmmz.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/x6leoc.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/rzo9jm.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/x6leoc.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/khtmmz.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/o4m8ep.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/4wn6s3.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/x6leoc.jpg"
 
 
 def time_to_seconds(time):
